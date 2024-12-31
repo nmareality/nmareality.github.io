@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo + Next: A Sample Page Showcase</title>
+    <url>/2024/11/09/samples-references/</url>
+    <content><![CDATA[<!-- password: pw -->
+<!-- message: The password is pw -->
+<!-- wrong_pass_message: Wrong password, please retry. -->
+<p>This page is hidden until you click the ‘ Read More ‘ button.<br>在您按下「閱讀全文」內容按鈕前，此頁面已被隱藏。</p>
+<span id="more"></span>
+
+<!-- Cutdown Cutdown Cutdown Cutdown Cutdown  -->
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>This is a sample page for showcasing diffirent functions of hexo posting.<br>這是一個示範頁面，用來展示 Hexo Post 的不同功能。<br>You may link yourself to diffirent functions by the left sidebar.<br>您可以從左側的側邊欄連結到不同的區域。</p>
+<p>Reference &#x2F; 參考 :<br><a href="https://zenreal.github.io/posts/44730/#">https://zenreal.github.io/posts/44730/#</a><br><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/">https://guanqr.com/tech/website/hexo-theme-next-customization/</a></p>
+<h1 id="Common-Styles"><a href="#Common-Styles" class="headerlink" title="Common Styles"></a>Common Styles</h1><h2 id="Header"><a href="#Header" class="headerlink" title="Header "></a>Header <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># This will be Header of Introduction.</span><br><span class="line">## This will be the second Header, which is the current &#x27;Header&#x27;.</span><br><span class="line">### This will be the third Header.</span><br></pre></td></tr></table></figure>
+<p>Header can link user to a specific location.<br>標題可將使用者連結至特定位置。</p>
+<h2 id="Text-Styles"><a href="#Text-Styles" class="headerlink" title="Text Styles "></a>Text Styles <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><p>This is a nomral text without styles.</p>
+<h3 id="Italic"><a href="#Italic" class="headerlink" title="Italic"></a><em>Italic</em></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*This will be Italic*</span><br></pre></td></tr></table></figure>
+
+<h3 id="Bold"><a href="#Bold" class="headerlink" title="Bold"></a><strong>Bold</strong></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**This will be Bold**</span><br></pre></td></tr></table></figure>
+
+<h3 id="Bold-Italic"><a href="#Bold-Italic" class="headerlink" title="Bold Italic"></a><em><strong>Bold Italic</strong></em></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***This will be Bold Italic**</span><br></pre></td></tr></table></figure>
+
+<h3 id="Deletion-line"><a href="#Deletion-line" class="headerlink" title="Deletion line"></a><del>Deletion line</del></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~This will be Deletion line~~</span><br></pre></td></tr></table></figure>
+
+<h3 id="Underline"><a href="#Underline" class="headerlink" title="Underline"></a><u>Underline</u></h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;This will be Underline&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Changing-font-colors"><a href="#Changing-font-colors" class="headerlink" title="Changing font colors "></a>Changing font colors <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=#008080&gt;Color Teat has been shown.&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+<p><font color=#008080>Color Teat has been shown.</font><br>You may find common colors at <a href="https://www.rapidtables.com/web/color/html-color-codes.html">here</a>.<br>Or use a online picker at <a href="https://htmlcolorcodes.com/color-picker/">here</a>.</p>
+<h2 id="Links"><a href="#Links" class="headerlink" title="Links "></a>Links <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><p>In default, link would be shown as normal text. ( Eg. <a href="https://ravennanma.github.io/">https://ravennanma.github.io/</a> )<br>But there are two common ways to show links.</p>
+<h3 id="1-First-method"><a href="#1-First-method" class="headerlink" title="1: First method"></a>1: First method</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Shown Text](https://yourlink.com)</span><br></pre></td></tr></table></figure>
+<p><a href="https://ravennanma.github.io/">For example: My Github</a></p>
+<h3 id="2-Second-method"><a href="#2-Second-method" class="headerlink" title="2: Second method"></a>2: Second method</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;a href=&quot;https://ravennanma.github.io/&quot;&gt;https://ravennanma.github.io/&lt;/a&gt;</span><br></pre></td></tr></table></figure>
+<p><a href="https://ravennanma.github.io/">https://ravennanma.github.io/</a></p>
+<h2 id="List"><a href="#List" class="headerlink" title="List "></a>List <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><h3 id="Dot-List"><a href="#Dot-List" class="headerlink" title="Dot List"></a>Dot List</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+ Dot List 1</span><br><span class="line">+ Dot List 2</span><br><span class="line">    + Dot List 2.1</span><br><span class="line">        + Dot List 2.1.1</span><br></pre></td></tr></table></figure>
+<ul>
+<li>Dot List 1</li>
+<li>Dot List 2<ul>
+<li>Dot List 2.1<ul>
+<li>Dot List 2.1.1</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Number-List"><a href="#Number-List" class="headerlink" title="Number List"></a>Number List</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+ Dot List 1</span><br><span class="line">+ Dot List 2</span><br><span class="line">    + Dot List 2.1</span><br><span class="line">        + Dot List 2.1.1</span><br></pre></td></tr></table></figure>
+<ol>
+<li>Num List 1</li>
+<li>Num List 2<ol>
+<li>Num List 2.1<ol>
+<li>Num List 2.1.1</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<h3 id="Checked-List"><a href="#Checked-List" class="headerlink" title="Checked List"></a>Checked List</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] Target 1</span><br><span class="line">- [x] Target 2</span><br><span class="line">- [x] Target 3</span><br><span class="line">- [ ] Target 4</span><br></pre></td></tr></table></figure>
+<ul>
+<li><input disabled="" type="checkbox"> Target 1</li>
+<li><input checked="" disabled="" type="checkbox"> Target 2</li>
+<li><input checked="" disabled="" type="checkbox"> Target 3</li>
+<li><input disabled="" type="checkbox"> Target 4</li>
+</ul>
+<h2 id="Form"><a href="#Form" class="headerlink" title="Form "></a>Form <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><p>Form can be easily formed no matter the space is placed correctly or not.</p>
+<h3 id="Default-Form"><a href="#Default-Form" class="headerlink" title="Default Form"></a>Default Form</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| Column 1 | Column 2 | Column 3 |</span><br><span class="line">| -------- | -------- | -------- |</span><br><span class="line">| Text1    | Text2    | Text3    |</span><br><span class="line">| Text4    | Text5    | Text6    |</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>Column 1</th>
+<th>Column 2</th>
+<th>Column 3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Text1</td>
+<td>Text2</td>
+<td>Text3</td>
+</tr>
+<tr>
+<td>Text4</td>
+<td>Text5</td>
+<td>Text6</td>
+</tr>
+</tbody></table>
+<h3 id="Center-version-Form"><a href="#Center-version-Form" class="headerlink" title="Center version Form"></a>Center version Form</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">| A | Center | Version |</span><br><span class="line">| :---: | :---: | :---: |</span><br><span class="line">| Text1    | Text2    | Text3    |</span><br><span class="line">| Text4    | Text5    | Text6    |</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th align="center">A</th>
+<th align="center">Center</th>
+<th align="center">Version</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Text1</td>
+<td align="center">Text2</td>
+<td align="center">Text3</td>
+</tr>
+<tr>
+<td align="center">Text4</td>
+<td align="center">Text5</td>
+<td align="center">Text6</td>
+</tr>
+</tbody></table>
+<h1 id="Common-Blocks"><a href="#Common-Blocks" class="headerlink" title="Common Blocks"></a>Common Blocks</h1><h2 id="Notes"><a href="#Notes" class="headerlink" title="Notes "></a>Notes <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note default %&#125; Default Content &#123;% endnote %&#125;</span><br><span class="line">&#123;% note primary %&#125; Primary Content &#123;% endnote %&#125;</span><br><span class="line">&#123;% note success %&#125; Success Content &#123;% endnote %&#125;</span><br><span class="line">&#123;% note info %&#125; Info Content &#123;% endnote %&#125;</span><br><span class="line">&#123;% note warning %&#125; Warning Content &#123;% endnote %&#125;</span><br><span class="line">&#123;% note danger %&#125; Danger Content &#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="note default"><p>Default Content </p>
+</div>
+<div class="note primary"><p>Primary Content </p>
+</div>
+<div class="note success"><p>Success Content </p>
+</div>
+<div class="note info"><p>Info Content </p>
+</div>
+<div class="note warning"><p>Warning Content </p>
+</div>
+<div class="note danger"><p>Danger Content </p>
+</div>
+
+<h2 id="Labels"><a href="#Labels" class="headerlink" title="Labels "></a>Labels <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Label_1 </span><br><span class="line">&#123;% label primary@Label_2 %&#125; &#123;% label success@Label_3 %&#125; &#123;% label info@Label_4 %&#125;</span><br><span class="line">*&#123;% label warning @Label_5 %&#125;*  **&#123;% label danger@Label_6 %&#125;**  ~~&#123;% label default @Label_7 %&#125;~~</span><br><span class="line">&#123;% label @Label_8 %&#125;    &lt;mark&gt;Label_9&lt;/mark&gt;</span><br></pre></td></tr></table></figure>
+<p>Label_1 </p>
+<mark class="label primary">Label_2</mark> <mark class="label success">Label_3</mark> <mark class="label info">Label_4</mark>
+<p><em><mark class="label warning">Label_5</mark></em>  <strong><mark class="label danger">Label_6</mark></strong>  <del><mark class="label default">Label_7</mark></del></p>
+<mark class="label ">Label_8</mark>    <mark>Label_9</mark>
+
+<h2 id="Highlight-Codeblock"><a href="#Highlight-Codeblock" class="headerlink" title="Highlight &amp; Codeblock "></a>Highlight &amp; Codeblock <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;highlight&quot;&gt;Hightlight&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<div class="highlight">Hightlight</div>
+
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This is an inline code example: &lt;code&gt;let x = 10;&lt;/code&gt;</span><br></pre></td></tr></table></figure>
+<p>This is an inline code example: <code>let x = 10;</code></p>
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div class=&quot;highlight&quot;&gt;</span><br><span class="line">&lt;pre&gt;</span><br><span class="line">&lt;code&gt;</span><br><span class="line">// This is a code block example</span><br><span class="line">function helloWorld() &#123;</span><br><span class="line">    console.log(&quot;Hello, World!&quot;);</span><br><span class="line">&#125;</span><br><span class="line">&lt;/code&gt;</span><br><span class="line">&lt;/pre&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<div class="highlight">
+<pre>
+<code>
+// This is a code block example
+function helloWorld() &#123;
+    console.log("Hello, World!");
+&#125;
+</code>
+</pre>
+</div>
+
+<h1 id="Common-Lines"><a href="#Common-Lines" class="headerlink" title="Common Lines"></a>Common Lines</h1><h2 id="Reference-Line"><a href="#Reference-Line" class="headerlink" title="Reference Line  "></a>Reference Line  <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><p>There are diffirent reference line &#x2F; alert messages.</p>
+<h3 id="Reference-single-line"><a href="#Reference-single-line" class="headerlink" title="Reference single line"></a>Reference single line</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; This is a single Reference Line</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>This is a single Reference Line</p>
+</blockquote>
+<h3 id="Refrence-multiple-line"><a href="#Refrence-multiple-line" class="headerlink" title="Refrence multiple line"></a>Refrence multiple line</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; This is the first Reference Line</span><br><span class="line">&gt; This is the second Reference Line</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>This is the first Reference Line<br>This is the second Reference Line</p>
+</blockquote>
+<h3 id="Reference-multiple-stacking-line"><a href="#Reference-multiple-stacking-line" class="headerlink" title="Reference multiple stacking line"></a>Reference multiple stacking line</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; This is the first Reference Line</span><br><span class="line">&gt;&gt; This is the second Reference Line</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>This is the first Reference Line</p>
+<blockquote>
+<p>This is the second Reference Line</p>
+</blockquote>
+</blockquote>
+<h2 id="Center-reference"><a href="#Center-reference" class="headerlink" title="Center reference "></a>Center reference <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><!-- 文本居中引用效果 -->
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% cq %&#125;</span><br><span class="line">Center reference effect !</span><br><span class="line">&#123;% endcq %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">
+<p>Center reference effect !</p>
+
+</blockquote>
+
+<h2 id="Spliting-lines"><a href="#Spliting-lines" class="headerlink" title="Spliting lines "></a>Spliting lines <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">----</span><br><span class="line">This is spliting lines 1.</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line">This is spliting lines 2.</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>This is spliting lines 1.</p>
+<hr>
+<p>This is spliting lines 2.</p>
+<h2 id="Blockquote"><a href="#Blockquote" class="headerlink" title="Blockquote "></a>Blockquote <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><h3 id="Quote-with-author-and-source"><a href="#Quote-with-author-and-source" class="headerlink" title="Quote with author and source"></a>Quote with author and source</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote Albert Camus, &amp;nbsp;- The Stranger %&#125;</span><br><span class="line">“Fiction is the lie through which we tell the truth.”</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote><p>“Fiction is the lie through which we tell the truth.”<br>「虛構是一種謊言，透過這種謊言，我們說出了真相。」</p>
+<footer><strong>Albert Camus</strong><cite>&nbsp;- The Stranger</cite></footer></blockquote>
+
+<h3 id="Quote-from-Twitter"><a href="#Quote-from-Twitter" class="headerlink" title="Quote from Twitter"></a>Quote from Twitter</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote @kurogaki0311  https://x.com/kurogaki0311/status/1194605569765601281 %&#125;</span><br><span class="line">死ぬとき死ねばいい。</span><br><span class="line">受験とか、就職とか、失恋とか、友達とか、若さとか、事故とか、病気とか、</span><br><span class="line">トラウマとか、どうしようもないことに押しつぶされそうになるけれど、</span><br><span class="line">それでも生きていたいと、思ってくれたら嬉しいです。</span><br><span class="line">この曲が沢山の人の心に届きますように。</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote><p>死ぬとき死ねばいい。<br>受験とか、就職とか、失恋とか、友達とか、若さとか、事故とか、病気とか、<br>トラウマとか、どうしようもないことに押しつぶされそうになるけれど、<br>それでも生きていたいと、思ってくれたら嬉しいです。<br>この曲が沢山の人の心に届きますように。</p>
+<footer><strong>@kurogaki0311</strong><cite><a href="https://x.com/kurogaki0311/status/1194605569765601281">x.com/kurogaki0311/status/1194605569765601281</a></cite></footer></blockquote>
+
+<h3 id="Quote-from-Wikipedia"><a href="#Quote-from-Wikipedia" class="headerlink" title="Quote from Wikipedia"></a>Quote from Wikipedia</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote Reference https://en.wikipedia.org/wiki/Main_Page Wikipedia%&#125;</span><br><span class="line">Welcome to Wikipedia,</span><br><span class="line">the free encyclopedia that anyone can edit.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote><p>Welcome to Wikipedia,<br>the free encyclopedia that anyone can edit.</p>
+<footer><strong>Reference</strong><cite><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></cite></footer></blockquote>
+
+<h1 id="Media-Display"><a href="#Media-Display" class="headerlink" title="Media Display"></a>Media Display</h1><h2 id="Display-Video"><a href="#Display-Video" class="headerlink" title="Display Video "></a>Display Video <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><h3 id="By-video-block-tag"><a href="#By-video-block-tag" class="headerlink" title="By video block tag"></a>By video block tag</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% video &quot;/videos/sample.mp4&quot; %&#125;</span><br></pre></td></tr></table></figure>
+<video src="/videos/sample.mp4" preload="metadata" controlslist="nodownload" controls playsinline poster=""></video>
+
+<h3 id="By-video-with-controls-and-image-poster"><a href="#By-video-with-controls-and-image-poster" class="headerlink" title="By video &lt;&gt; , with controls , and image poster"></a>By video &lt;&gt; , with controls , and image poster</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;video poster=&quot;/images/sample_image.jpg&quot; src=&quot;/videos/sample.mp4&quot; style=&quot;max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;&quot; controls=&quot;controls&quot; loop=&quot;loop&quot; preload=&quot;meta&quot;&gt;Your browser does not support the video tag.&lt;/video&gt;</span><br></pre></td></tr></table></figure>
+<p><video poster="/images/sample_image.jpg" src="/videos/sample.mp4" style="max-height :100%; max-width: 100%; display: block; margin-left: auto; margin-right: auto;" controls="controls" loop="loop" preload="meta">Your browser does not support the video tag.</video></p>
+<h3 id="Video-by-iframe"><a href="#Video-by-iframe" class="headerlink" title="Video by iframe"></a>Video by iframe</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% iframe http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4 %&#125;</span><br></pre></td></tr></table></figure>
+<iframe src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" width="100%" height="300" frameborder="0" loading="lazy" allowfullscreen></iframe>
+
+<h3 id="Youtube-video-by-grabing-html-iframe"><a href="#Youtube-video-by-grabing-html-iframe" class="headerlink" title="Youtube video by grabing html iframe"></a>Youtube video by grabing html iframe</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/A1Ptl0qs-pE?si=ZnJ8bZIsFCBSGGmb&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;</span><br></pre></td></tr></table></figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A1Ptl0qs-pE?si=ZnJ8bZIsFCBSGGmb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<h2 id="Display-Social-Media"><a href="#Display-Social-Media" class="headerlink" title="Display Social Media "></a>Display Social Media <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><h3 id="Display-a-Twitter-X-tweet"><a href="#Display-a-Twitter-X-tweet" class="headerlink" title="Display a Twitter &#x2F; X tweet"></a>Display a Twitter &#x2F; X tweet</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% twitter https://x.com/kurogaki0311/status/1194605569765601281 %&#125;</span><br></pre></td></tr></table></figure>
+<div class="twitter-wrapper"><blockquote class="twitter-tweet"><a href="https://twitter.com/kurogaki0311/status/1194605569765601281"></a></blockquote></div><script async defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="Display-a-Bilibili-Video-card"><a href="#Display-a-Bilibili-Video-card" class="headerlink" title="Display a Bilibili Video card"></a>Display a Bilibili Video card</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% twitter https://x.com/kurogaki0311/status/1194605569765601281 %&#125;</span><br></pre></td></tr></table></figure>
+<div class="bvideo"><a href="//www.bilibili.com/video/BV1Et41137ii" target="_blank">
+        <div class="bvideo-box">
+            <div class="bvideo-cover">
+                <div class="cover-default"></div>
+                <div class="bvideo-cover-layer" style="background-image:url(https://images.weserv.nl/?url=http://i0.hdslb.com/bfs/archive/d6834c7a392565b72ab600a3214a51eefae8bbe6.jpg)">
+                    <i class="icon-video"></i>
+                </div>
+                <span class="duration">00:01:16</span>
+            </div>
+            <div class="bvideo-info">
+                <p class="title">尽管如此你却已不在</p>
+                <p class="card-status">
+                    <span class="play-num">
+                        <i class="fa fa-youtube-play"></i>
+                        <span>595</span></span>
+                    <span>
+                        <i class="fa fa-list-alt"></i>
+                        <span>0</span></span></p>
+                <div class="partition">
+                    <label class="card-label">视频</label>
+                    <label class="up-label"></label>
+                    <label class="up-name">neneneneneneneko</label>
+                </div>
+                <div class="actions hide"></div>
+            </div>
+        </div>
+    </a></div>
+
+<h2 id="Display-a-Image"><a href="#Display-a-Image" class="headerlink" title="Display a Image "></a>Display a Image <!-- Cutdown Cutdown Cutdown Cutdown Cutdown  --></h2><p>To display a image, there are four ways.</p>
+<!-- Cutdown -->
+<h3 id="1-Using-center-to-locate-the-image-at-center"><a href="#1-Using-center-to-locate-the-image-at-center" class="headerlink" title="1: Using center to locate the image at center."></a>1: Using center to locate the image at center.</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;center&gt;</span><br><span class="line">&lt;img src=&quot;/images/sample_image.jpg&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;</span><br><span class="line">Center image</span><br><span class="line">&lt;/center&gt;</span><br></pre></td></tr></table></figure>
+<center>
+<img src="/images/sample_image.jpg" width="50%" height="50%" />
+Center image with size control
+</center>
+
+<h3 id="2-Using-single-line-to-display-image"><a href="#2-Using-single-line-to-display-image" class="headerlink" title="2: Using single line to display image."></a>2: Using single line to display image.</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![Image Descrption](https://i.ibb.co/JkCKQFQ/sample-image.jpg)</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.ibb.co/JkCKQFQ/sample-image.jpg" alt="Image_by_link"></p>
+<center>
+Center image by single line . Put link/source to the right.
+</center>
+
+<h3 id="3-Using-Group-Pictures-to-put-mutiple-images"><a href="#3-Using-Group-Pictures-to-put-mutiple-images" class="headerlink" title="3: Using Group Pictures to put mutiple images."></a>3: Using Group Pictures to put mutiple images.</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% gp [1]-[1] %&#125;</span><br><span class="line">![image description](https://i.ibb.co/JkCKQFQ/sample-image.jpg)</span><br><span class="line">&#123;% endgp %&#125;</span><br></pre></td></tr></table></figure>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="https://i.ibb.co/JkCKQFQ/sample-image.jpg" alt="image description"></div></div></div>
+<center>
+A fully filled center image by GP , with 1 image and layout 1.
+</center>
+<br>
+
+<hr>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% grouppicture 4-4 %&#125;</span><br><span class="line">![Sample_img](/images/sample_image.jpg)</span><br><span class="line">![Sample_img](/images/sample_image.jpg)</span><br><span class="line">![Sample_img](/images/sample_image.jpg)</span><br><span class="line">![Sample_img](/images/sample_image.jpg)</span><br><span class="line">&#123;% endgrouppicture %&#125;</span><br></pre></td></tr></table></figure>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/images/sample_image.jpg" alt="Sample_img"></div><div class="group-picture-column"><img src="/images/sample_image.jpg" alt="Sample_img"></div><div class="group-picture-column"><img src="/images/sample_image.jpg" alt="Sample_img"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/images/sample_image.jpg" alt="Sample_img"></div></div></div>
+
+<center>
+A grouped center image by GP , with 4 images and layout 3.
+<br>
+For layout usages, check <a href="https://theme-next.js.org/docs/tag-plugins/group-pictures">https://theme-next.js.org/docs/tag-plugins/group-pictures</a>
+</center>
+
+<h3 id="4-Using-HTML-‘s-div-block-to-locate-the-image-on-left"><a href="#4-Using-HTML-‘s-div-block-to-locate-the-image-on-left" class="headerlink" title="4: Using HTML ‘s div block to locate the image on left."></a>4: Using HTML ‘s div block to locate the image on left.</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;div style=&quot;display:inline-block;&quot;&gt;</span><br><span class="line">&lt;img width=&quot;100%&quot; style=&quot;float:left; margin-right: 10px;&quot; </span><br><span class="line">src=&quot;/images/sample_image.jpg&quot; alt=&quot;$fileName&quot;&gt;&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<div style="display:inline-block;"><img width="100%" style="float:left; margin-right: 10px;" src="/images/sample_image.jpg" alt="$fileName"></div>
+
+<h1 id="Upload-a-Post"><a href="#Upload-a-Post" class="headerlink" title="Upload a Post"></a>Upload a Post</h1><p>To upload a post, find the root directory of the blog files. Then press the right mouse button.<br>要上傳文章，請找到部落格檔案的根目錄。然後按下滑鼠右鍵。<br><code>Open Git Bash here</code></p>
+<h2 id="Test-on-Local"><a href="#Test-on-Local" class="headerlink" title="Test on Local"></a>Test on Local</h2><p>To test the post on local, input <code>hexo s</code><br>若要在本機測試文章，請輸入 <code>hexo s</code><br><br></p>
+<div class="note default"><p><a href="localhost:4000">localhost:4000</a></p>
+</div>
+
+<h2 id="Upload-to-Github-Page"><a href="#Upload-to-Github-Page" class="headerlink" title="Upload to Github Page"></a>Upload to Github Page</h2><p>To upload to Github Page, input <code>npm run de</code><br>上傳至 Github 頁面, input <code>npm run de</code><br><br></p>
+<div class="note default"><p><a href="https://ravennanma.github.io/">https://ravennanma.github.io/</a></p>
+</div>
+
+]]></content>
+      <categories>
+        <category>Website</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Sample</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Collections: Submission + Opportunity of Interest / Art / Rewards</title>
+    <url>/2024/11/10/submission-oppotunity-01/</url>
+    <content><![CDATA[<div class="note info"><p>此文章收藏了，個人感興趣的一些比賽／獎金／機會。 </p>
+</div>
+<span id="more"></span>
+
+<p>嗨，這裡的收藏都是用來預先計劃用的，期限和圖片都是參考之前已結束的。</p>
+<h2 id="校內-類"><a href="#校內-類" class="headerlink" title="校內 類"></a>校內 類</h2><h3 id="北藝新媒卓越獎"><a href="#北藝新媒卓越獎" class="headerlink" title="北藝新媒卓越獎"></a>北藝新媒卓越獎</h3><ul>
+<li>主題：新媒體藝術</li>
+<li>形式： 適合以展覽形式呈現</li>
+<li>申請期限： 1~2月左右</li>
+<li>繳交期限： 4月左右</li>
+<li>回饋： 心靈回饋 &#x2F; 1500~6500 助學金</li>
+<li>網站： <a href="https://nma.tnua.edu.tw/news/announcement/GBSws8e9mn">https://nma.tnua.edu.tw/news/announcement/GBSws8e9mn</a></li>
+</ul>
+<h3 id="2024北藝當代創作獎"><a href="#2024北藝當代創作獎" class="headerlink" title="2024北藝當代創作獎"></a>2024北藝當代創作獎</h3><ul>
+<li>主題：富開創性之作品</li>
+<li>形式： 適合以展覽形式呈現</li>
+<li>申請期限： 3月左右</li>
+<li>繳交期限： 7月左右</li>
+<li>回饋： 入圍: 1萬 + 關渡美術館舉辦「2024北藝當代創作獎展覽」&#x2F; 優選: 關渡美術館個展及國際參訪交流機會</li>
+<li>網站： <a href="https://nma.tnua.edu.tw/news/announcement/iMJzIu36Dt">https://nma.tnua.edu.tw/news/announcement/iMJzIu36Dt</a></li>
+</ul>
+<h2 id="展示-論文-類"><a href="#展示-論文-類" class="headerlink" title="展示 &#x2F; 論文 類"></a>展示 &#x2F; 論文 類</h2><h3 id="科技藝術國際學術研討會"><a href="#科技藝術國際學術研討會" class="headerlink" title="科技藝術國際學術研討會"></a>科技藝術國際學術研討會</h3><p><img src="http://atatw.org/wp-content/uploads/2024/08/ISAT2024.png"></p>
+<ul>
+<li>主題：科技藝術創作</li>
+<li>形式： 研究論文 &#x2F; 海報發表 &#x2F; 展示發表</li>
+<li>申請期限： 8月左右</li>
+<li>繳交期限： 10月左右</li>
+<li>回饋： 論文發表</li>
+<li>網站： <a href="https://sites.google.com/view/cmiedesign/home">https://sites.google.com/view/cmiedesign/home</a></li>
+</ul>
+<h2 id="競賽-類"><a href="#競賽-類" class="headerlink" title="競賽 類"></a>競賽 類</h2><h3 id="MetaDisplay前瞻顯示科技落實於場域應用之創新專題實作競賽"><a href="#MetaDisplay前瞻顯示科技落實於場域應用之創新專題實作競賽" class="headerlink" title="MetaDisplay前瞻顯示科技落實於場域應用之創新專題實作競賽"></a>MetaDisplay前瞻顯示科技落實於場域應用之創新專題實作競賽</h3><p><img src="https://atatw.org/wp-content/uploads/2024/04/427699387_803841878220122_8963173116451550352_n.jpg"></p>
+<ul>
+<li>主題：延伸實境 &#x2F; 混合實境 &#x2F; 擴增實境 &#x2F; 虛擬實境 &#x2F; 沉浸式投影、光雕投影等前瞻顯示科技之應用。</li>
+<li>形式： 場域中落實前瞻顯示科技之應用</li>
+<li>申請期限： 3~5月左右</li>
+<li>繳交期限： 5&#x2F;10月左右</li>
+<li>回饋： 3~10萬</li>
+<li>網站： <a href="https://metadisplay.tnua.edu.tw/index.html">https://metadisplay.tnua.edu.tw/index.html</a></li>
+</ul>
+<h2 id="投件-類"><a href="#投件-類" class="headerlink" title="投件 類"></a>投件 類</h2><h3 id="VR-FILM-LAB-文化黑潮X-Lab"><a href="#VR-FILM-LAB-文化黑潮X-Lab" class="headerlink" title="VR FILM LAB 文化黑潮X-Lab"></a>VR FILM LAB 文化黑潮X-Lab</h3><p><img src="https://storage.googleapis.com/stateless-newsmedia-today/2024/01/c749c3c4-1-1-e1705573601384.jpg"></p>
+<ul>
+<li>主題：延伸實境 &#x2F; 虛擬實境</li>
+<li>形式： 互動、體感、多人連線、VR360、沉浸式內容場域體驗等</li>
+<li>申請期限： 1~3月左右</li>
+<li>繳交期限： 1~3月左右</li>
+<li>回饋： 最高300&#96;1200萬</li>
+<li>網站： <a href="https://metadisplay.tnua.edu.tw/index.html">https://metadisplay.tnua.edu.tw/index.html</a></li>
+</ul>
+<h3 id="VR-FILM-LAB-高雄電影節-XR組"><a href="#VR-FILM-LAB-高雄電影節-XR組" class="headerlink" title="VR FILM LAB 高雄電影節 XR組"></a>VR FILM LAB 高雄電影節 XR組</h3><p><img src="https://www.kff.tw/storage/photos/shares_2023/InternationalShortFilmCompetition/2024/2024-%E7%9F%AD%E7%AB%B6-EDM-%E4%B8%AD.jpg"></p>
+<ul>
+<li>主題：延伸實境 &#x2F; 虛擬實境</li>
+<li>形式： 短影片 &#x2F; 微電影</li>
+<li>申請期限： 4~5月左右</li>
+<li>繳交期限： 4~5月左右</li>
+<li>回饋： 最高300&#96;1200萬</li>
+<li>網站： <a href="https://www.kff.tw/about/brochure">https://www.kff.tw/about/brochure</a></li>
+</ul>
+<h2 id="Extra-Platform"><a href="#Extra-Platform" class="headerlink" title="Extra Platform"></a>Extra Platform</h2><p><a href="https://www.kff.tw/content/2024dreamlandevent01">https://www.kff.tw/content/2024dreamlandevent01</a><br><a href="https://www.kff.tw/list/latest">https://www.kff.tw/list/latest</a><br><a href="https://www.kff.tw/about/brochure">https://www.kff.tw/about/brochure</a><br><a href="https://vrfilmlab.tw/">https://vrfilmlab.tw/</a></p>
+]]></content>
+      <categories>
+        <category>Collections</category>
+      </categories>
+      <tags>
+        <tag>Rewards</tag>
+        <tag>Art</tag>
+        <tag>Submission</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Unity + Oculus OVR : AudioManager &amp; Caption System</title>
+    <url>/2024/11/11/unity-vr-audiocaption-1/</url>
+    <content><![CDATA[<div class="note info"><p>A Simple Tutorial of VR Audiomanager &amp; Caption System. </p>
+</div>
+<p>This page is hidden until you click the ‘ Read More ‘ button.<br>在您按下「閱讀全文」內容按鈕前，此頁面已被隱藏。</p>
+<span id="more"></span>
+
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>Inspired by Oculus Whisper , a open-source Oculus Game , which has a audio manager &amp; caption system.<br>I created this blog to organize the functions of it.</p>
+<p>There is lack of tutorial on how to use or create such a system in VR game development.<br>Especially when we need a narrator , and a clean script for our vr game.<br>In this tutorial , we will mainly discuss on how to use and edit it, but not start from 0.</p>
+<h1 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h1><p>Normally, I will ask myself these questions before I do anything.</p>
+<h2 id="What-do-I-need"><a href="#What-do-I-need" class="headerlink" title="What do I need?"></a>What do I need?</h2><ul>
+<li>I need a Captions System which works in VR.</li>
+<li>I need a Audio Manager that can store audio somewhere ,but not changing the script if I modiify something.</li>
+</ul>
+<h2 id="Why-do-I-need"><a href="#Why-do-I-need" class="headerlink" title="Why do I need?"></a>Why do I need?</h2><ul>
+<li>I am not a expert or knowing how to code it from 0.<ul>
+<li>I need less time but a good result.<ul>
+<li>I want efficiency.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="How-to-make-it-work"><a href="#How-to-make-it-work" class="headerlink" title="How to make it work?"></a>How to make it work?</h2><ul>
+<li>Try Things-already-happened , it could be sample, open-source, demo.<ul>
+<li>Take what you want from your needs.<ul>
+<li>Make a little test it in your project.<ul>
+<li>Modify it due to your needs.<ul>
+<li>Minify it and make it a package to use afterwards.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Unity</category>
+      </categories>
+      <tags>
+        <tag>Unity</tag>
+        <tag>OVR</tag>
+        <tag>VR</tag>
+        <tag>System</tag>
+        <tag>Audio</tag>
+        <tag>Captions</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Tools: Line and Color Imitation Training</title>
+    <url>/2024/11/12/tools-processing-linecolorgenerate/</url>
+    <content><![CDATA[<div class="note info"><p>Original Tool for generating Digital Art Practice. </p>
+</div>
+<p>This page is hidden until you click the ‘ Read More ‘ button.<br>在您按下「閱讀全文」內容按鈕前，此頁面已被隱藏。</p>
+<span id="more"></span>
+
+<h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>基於 Victor-Cloux (V大) 預科作业3.0<br>電繪中，線條和色彩臨摹 的訓練。<br>這是一個 線條和色彩臨摹 的訓練圖生成器。</p>
+<p>Based on Victor-Cloux (V大) Matriculation 3.0<br>Line and Color Imitation Training in Digital Art.<br>This is a Line and Color Imitation Training Images Generator.</p>
+<h1 id="How-to-use"><a href="#How-to-use" class="headerlink" title="How to use?"></a>How to use?</h1><ol>
+<li>Download the zip file from the link.<br>從連結下載壓縮檔。</li>
+<li>Unzip the zip file.<br>解壓縮。</li>
+<li>Open the Art_Practice_Generate Folder.<br>開啟 Art_Practice_Generate 資料夾。</li>
+<li>Double click to run each .exe according to the order from 1 to 4.<br>按照 1 到 4 的順序，雙擊執行每個 .exe。</li>
+<li>For 4_Color.exe , You can change colors by Right Clicking the screen. 對於 4_Color.exe ,<br>您可以用滑鼠右鍵按下螢幕來改變顏色。</li>
+<li>Save the image by clicking the right top button.<br>按一下右上方的按鈕，儲存影像。</li>
+<li>You will get 1 Line Practice &amp; 1 Color Practice with Date !<br>您將獲得 1 份線條練習和 1 份色彩練習，附有日期！</li>
+</ol>
+<h1 id="Download-Link"><a href="#Download-Link" class="headerlink" title="Download Link"></a>Download Link</h1><h2 id="File-io"><a href="#File-io" class="headerlink" title="File.io"></a>File.io</h2><p> <a href="https://file.io/a79uSvU6T3Vs">File.io</a></p>
+<h2 id="Google-Drive"><a href="#Google-Drive" class="headerlink" title="Google Drive"></a>Google Drive</h2><p> <a href="https://drive.google.com/file/d/1ZWQHz4W9Q1NjxFNnnX5Zcd5qlRbsOEDW/view?usp=sharing">Google Drive</a></p>
+]]></content>
+      <categories>
+        <category>Tools</category>
+      </categories>
+      <tags>
+        <tag>Training</tag>
+        <tag>Imitation</tag>
+        <tag>Digital Art</tag>
+        <tag>Generator</tag>
+        <tag>Processing</tag>
+      </tags>
+  </entry>
+</search>
